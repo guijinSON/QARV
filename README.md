@@ -9,3 +9,8 @@ The QARV (Question and Answers with Regional Variance) project aims to curate a 
 3. Exploring whether ICL, prompting, SFT, or RLHF can be used to steer language models towards generating culturally-aware responses.
 
 ## References
+1. [Multilingual Language Models are not Multicultural: A Case Study in Emotion](https://arxiv.org/abs/2307.01370)
+
+2. [KorNAT: LLM Alignment Benchmark for Korean Social Values and Common Knowledge](https://arxiv.org/abs/2402.13605)
+
+3. [Having Beer after Prayer? Measuring Cultural Bias in Large Language Models](https://arxiv.org/abs/2305.14456)
