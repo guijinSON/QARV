@@ -8,6 +8,16 @@ The QARV (Question and Answers with Regional Variance) project aims to curate a 
 2. Observing biases in language models regarding regional contexts.
 3. Exploring whether ICL, prompting, SFT, or RLHF can be used to steer language models towards generating culturally-aware responses.
 
+## How to contribute
+We have just started collecting the QARV dataset. To contribute you can either:
+1. Add questions with varying answer per region/natio yourself via [google form](https://forms.gle/REKGPRDGaLeUqr676). (See the collected questions [here](https://docs.google.com/spreadsheets/d/1jEBFf3iFx26YDvAfYkKZtVmJ8qSTr7nmH7wyuJdX9DA/edit?usp=sharing))
+2. We use questions collected in step#1 with RAG to prompt GPT-4 to generate questions. You can help annotating GPT-4 generated questions by:  
+     2-1.  Join [HAE-RAE](https://huggingface.co/HAERAE-HUB) on HF.  
+     2-2.  Once you join you will see a [label studio](https://huggingface.co/spaces/HAERAE-HUB/LabelStudio) where you can annotate GPT-4 generated questions.
+
+## How to reach out
+If you are interested in joining this project contact us in the #multilingual channel of the EAI discord.
+
 ## References
 1. [Multilingual Language Models are not Multicultural: A Case Study in Emotion](https://arxiv.org/abs/2307.01370)
 
