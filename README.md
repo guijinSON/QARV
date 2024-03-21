@@ -8,6 +8,13 @@ The QARV (Question and Answers with Regional Variance) project aims to curate a 
 2. Observing biases in language models regarding regional contexts.
 3. Exploring whether ICL, prompting, SFT, or RLHF can be used to steer language models towards generating culturally-aware responses.
 
+## To do list
+
+- [ ] We are collecting quuestioons for the QARV dataset see the "How to contribute" below to join.
+- [ ] We are also searching for ways to automate the question generation progress if you have ideas feel free to hop in.
+
+
+
 ## How to contribute
 We have just started collecting the QARV dataset. To contribute you can either:
 1. Add questions with varying answer per region/natio yourself via [google form](https://forms.gle/REKGPRDGaLeUqr676). (See the collected questions [here](https://docs.google.com/spreadsheets/d/1jEBFf3iFx26YDvAfYkKZtVmJ8qSTr7nmH7wyuJdX9DA/edit?usp=sharing))
