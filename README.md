@@ -15,7 +15,7 @@ The QARV (Question and Answers with Regional Variance) project aims to curate a 
 - [ ] We need automated ways to dedeuplicate the questions.
 
 ## Progress
-- 2024.03.22 The first slice of the [QARV dataset](https://huggingface.co/datasets/amphora/QARV) is now available. 
+- 2024.03.22 The first slice of the [QARV dataset](https://huggingface.co/datasets/amphora/QARV) is now available. (Label Studio ~ row 254, Google Form ~ row 83)
 
 ## How to contribute
 We have just started collecting the QARV dataset. To contribute you can either:
