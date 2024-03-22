@@ -9,11 +9,13 @@ The QARV (Question and Answers with Regional Variance) project aims to curate a 
 3. Exploring whether ICL, prompting, SFT, or RLHF can be used to steer language models towards generating culturally-aware responses.
 
 ## To do list
-
-- [ ] We are collecting quuestioons for the QARV dataset see the "How to contribute" below to join.
+- [ ] We are collecting questions for the QARV dataset see the "How to contribute" below to join.
 - [ ] We are also searching for ways to automate the question generation progress if you have ideas feel free to hop in.
+- [ ] We need codes to cluster the question and label the clusters.
+- [ ] We need automated ways to dedeuplicate the questions.
 
-
+## Progress
+- 2024.03.22 The first slice of the [QARV dataset](https://huggingface.co/datasets/amphora/QARV) is now available. 
 
 ## How to contribute
 We have just started collecting the QARV dataset. To contribute you can either:
