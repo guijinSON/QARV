@@ -28,8 +28,8 @@ def generate_result_cot(model_path, df, options, bs, device):
     qrys_outputs = [f"{qry} {gen}" for qry,gen in zip(qrys,outputs)]
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModelForCausalLM.from_pretrained(model_path)
-    _ = model.to(device)
+    model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
+    
     final_answers = get_next_token_batch(model, tokenizer, qrys_outputs, options, bs, device)
     
     df['final_answers'] = final_answers
@@ -44,8 +44,7 @@ def generate_direct_result(model_path, df, last_option, options, bs=32, device='
     df = pd.DataFrame(rows,columns=['prompt','query'])
 
     tokenizer = AutoTokenizer.from_pretrained(model_path)
-    model = AutoModelForCausalLM.from_pretrained(model_path)
-    _ = model.to(device)
+    model = AutoModelForCausalLM.from_pretrained(model_path, device_map="auto")
     
     final_answers = get_next_token_batch(model, tokenizer, df['query'].values, options, bs, device)
 
